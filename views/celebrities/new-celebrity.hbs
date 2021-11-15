@@ -1,0 +1,16 @@
+<h2> Celebrities </h2>
+
+<form method="POST" action="/celebrities/create">
+<div class="mb-3">
+    <label class="form-label" >Name</label>
+    <input class="form-control" value="{{celebrities.name}}" type="text" name="name">
+    <br>
+    <label class="form-label" >Occupation</label>
+    <input class="form-control" value="{{celebrities.occupation}}" type="string" name="occupation">
+    <br>
+    <label class="form-label" >Catch Phrase</label>
+    <input class="form-control" value="{{celebrities.catchPhrase}}" type="string" name="catchPhrase">
+    <br>
+    <button class="btn btn-primary" type="submit">Create</button>
+  </div>
+</form>
